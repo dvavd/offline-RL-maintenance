@@ -1,0 +1,44 @@
+{
+    "num_gpus": 0,
+    "num_workers": 50,
+    "evaluation_num_workers": 50,
+    "num_envs_per_worker": 1,
+    "evaluation_interval": 5,
+    "lr": 0.0003,
+    "horizon": 50,
+    "evaluation_duration": 500,
+    "clip_param": 0.1,
+    "gamma": 1,
+    "model": {
+        "use_lstm": false,
+        "use_attention": true,
+        "attention_dim": 64,
+        "attention_head_dim": 32,
+        "attention_num_heads": 8,
+        "attention_num_transformer_units": 2,
+        "attention_position_wise_mlp_dim": 32,
+        "attention_use_n_prev_actions": 50,
+        "attention_use_n_prev_rewards": 0,
+        "attention_memory_inference": 50,
+        "attention_memory_training": 50,
+        "max_seq_len": 50,
+        "fcnet_hiddens": [],
+        "fcnet_activation": "linear",
+        "post_fcnet_hiddens": [],
+        "post_fcnet_activation": "linear",
+        "vf_share_layers": false
+    },
+    "env_config": {
+        "domain_randomization": false,
+        "print_variables": false,
+        "return_belief": false
+    },
+    "evaluation_config": {
+        "explore": false,
+        "env_config": {
+            "domain_randomization": false,
+            "print_variables": false,
+            "return_belief": false
+        }
+    }
+}

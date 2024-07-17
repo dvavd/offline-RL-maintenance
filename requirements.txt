@@ -1,0 +1,9 @@
+# used for data sampling
+theano-pymc==1.1.2
+pymc3==3.11.3
+numpyro==0.12.1 
+gymnasium==0.28.1
+numpy==1.21.2
+pandas==1.5.3
+# used for training
+d3rlpy==2.4.0

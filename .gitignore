@@ -1,0 +1,25 @@
+# Ignore datasets and policies
+d3rlpy_logs/
+datasets/
+
+# Ignore checkpoints
+.ipynb_checkpoints/
+
+# Ignore cache files
+__pycache__/
+
+# Ignore parameters
+trace.pickle
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.class
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebooks
+.ipynb
