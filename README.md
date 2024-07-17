@@ -1,4 +1,5 @@
 # Offline Reinforcement Learning for Railway Optimal Maintenance and Comparison with Online Reinforcement Learning Solutions
+
 Code for the research project "Offline Reinforcement Learning for Railway Optimal Maintenance and Comparison with Online Reinforcement Learning Solutions" by David Streuli. 
 
 ## Abstract
@@ -51,3 +52,7 @@ python evaluation_fqe.py --optimalities <optimalities> --seed <seed>
 
 python evaluation_magic.py --optimalities <optimalities> --seed <seed>
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9312b34 (change README)
