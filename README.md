@@ -52,7 +52,3 @@ python evaluation_fqe.py --optimalities <optimalities> --seed <seed>
 
 python evaluation_magic.py --optimalities <optimalities> --seed <seed>
 ```
-<<<<<<< HEAD
-=======
-
->>>>>>> 9312b34 (change README)
