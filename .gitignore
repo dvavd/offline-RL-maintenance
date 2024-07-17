@@ -20,6 +20,3 @@ trace.pickle
 # Ignore system files
 .DS_Store
 Thumbs.db
-
-# Ignore Jupyter Notebooks
-.ipynb
